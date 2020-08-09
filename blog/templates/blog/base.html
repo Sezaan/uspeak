@@ -1,0 +1,20 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{% block title %} {% endblock %}</title>
+	<link rel="stylesheet" href="{% static 'css/blog.css' %}">
+	
+</head>
+<body>
+	<div id="content">
+		{% block content %}
+		{% endblock %}
+	</div>
+	<div id="sidebar">
+		<h1>uspeak</h1>
+		<p>This is uspeak.</p>
+	</div>
+</body>
+</html>
