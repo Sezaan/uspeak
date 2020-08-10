@@ -1,2 +1,2 @@
 # uspeak
-## This is a simple blog using Django.
+This is a simple blog using Django.
